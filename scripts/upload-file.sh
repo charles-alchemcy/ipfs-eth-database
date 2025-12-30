@@ -21,3 +21,4 @@ ADDRESS=${OUTPUT_ARRAY[${#OUTPUT_ARRAY[@]}-2]}
 echo ""
 echo "File is available here ok:"
 echo http://$REMOTE_HOST:8080/ipfs/$ADDRESS
+
