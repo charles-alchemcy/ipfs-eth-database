@@ -6,7 +6,7 @@ FILENAME=$(basename $1)
 SSH_KEY=~/go-ipfs-node.pem
 REMOTE_DIR=/home/ec2-user/upload
 REMOTE_USERNAME=ec2-user
-REMOTE_HOST=54.93.56.226
+REMOTE_HOST=54.93.56.223
 
 
 scp -i $SSH_KEY -q -r $FILEPATH $REMOTE_USERNAME@$REMOTE_HOST:$REMOTE_DIR
