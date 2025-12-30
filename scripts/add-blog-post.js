@@ -11,6 +11,7 @@ const web3 = new Web3(
   )
 );
 
+
 const address = web3.eth.accounts.currentProvider.addresses[0];
 const Blog = new web3.eth.Contract(abi, BlogConfig.address);
 const fileAddress = process.argv.slice(2)[0];
